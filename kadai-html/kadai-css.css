@@ -1,0 +1,25 @@
+@charset "UTF-8";           /*おまじない*/
+
+header {
+    width: 1000px;           /*ヘッダーの幅*/
+    background-color: #ffcccc;  /*背景色の設定*/
+}
+/*メインとサイドバー（2カラムレイアウト）を整える*/
+#wrapper {          /*メインエリア全体2つのエリアを設定(#wrapperというID名のdiv要素の中)*/
+    width: 1000px;  /*幅を1000pxにする*/
+    display: flex;  /*Flexboxを採用してメインとサイドバーを横に並べる*/
+}
+#main {             /*コンテンツエリア*/
+    width: 700px;   /*横幅を700px*/
+    background-color: #ccffcc;  /*背景色の設定*/
+}
+
+#menu {             /*サイドバーエリア*/
+    width: 300px;   /*横幅300px*/
+    background-color: #ccccff;  /*背景色の設定*/
+}
+footer {
+    width: 1000px;                /*フッターの幅*/
+    background-color: #ffccff;  /*背景色の設定*/
+}
+
